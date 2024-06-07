@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jalase15,16</title>
+    <!-- links -->
+    <link rel="icon" type="image/x-icon" href="../assets/WEBSITE LOGO.png">
+    <!-- <link rel="stylesheet" href="../script/jquary.js" type="text/css"> -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/styleSheet.css" type="text/css">
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="scrollbar1">
+    <!-- NAVBAR -->
+    <nav>
+      <div class="container ">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between">
+            <!-- right navbar -->
+            <div class="navbar_right d-inline-flex">
+              <a href="#">
+                <img src="../assets/WEBSITE LOGO.png">
+              </a>
+              <ul class="nav align-items-center pe-1 d-md-flex d-none">
+                <li class="nav-item line_hover">
+                  <a class="nav-link active" aria-current="page" href="#">خانه </h1></a>
+                </li>
+                <li class="nav-item line_hover">
+                  <a class="nav-link" href="#">فروشگاه </a>
+                </li>
+                <li class="nav-item line_hover">
+                  <a class="nav-link" href="#"> بسته بندی ها </a>
+                </li>
+                <li class="nav-item line_hover">
+                  <a class="nav-link" href="#"> درباره ما  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- navbar left -->
+            <div class="navbar_left d-inline-flex">
+              <ul class="nav  align-items-center">
+                <li class="nav-item  d-sm-flex d-none ">
+                  <a class="nav-link active" href="#"><i class="fa-duotone fa-magnifying-glass fa-xl"></i></a>
+                </li>
+                <li class="nav-item  d-sm-flex d-none ">
+                  <a class="nav-link" href="#"><i class="fa-duotone fa-user fa-xl"></i></a>
+                </li>
+                <li class="nav-item  d-sm-flex d-none ">
+                  <a class="nav-link" href="#"><i class="fa-duotone fa-heart-half fa-xl"></i></a>
+                </li>
+                <li class="nav-item  d-sm-flex d-none ">
+                  <a class="nav-link" href="#"><i class="fa-duotone fa-cart-shopping fa-xl"></i></a>
+                </li>
+                <!-- offcanvas -->
+                <li class="nav align-items-center pe-1 d-md-none d-flex d-md-none">
+                  <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample"  aria-controls="offcanvasExample">
+                    <i class="fa-duotone fa-bars fa-xl"></i>
+                  </a> 
+                  <div class="offcanvas offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">منو راهبری</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- offcanvas body -->
+                    <div class="offcanvas-body">
+                        <ul class="nav flex-column pe-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">خانه </h1></a>
+                            <hr class="my-1" >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">فروشگاه </a>
+                            <hr class="my-1" >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"> بسته بندی ها </a>
+                            <hr class="my-1" >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"> درباره ما  </a>
+                            <hr class="my-1" >
+                          </li>
+                        </ul>
+                        <ul class="nav  align-items-center d-sm-flex d-sm-none pe-0 p-2">
+                          <li class="nav-item ">
+                            <a class="nav-link active" href="#"><i class="fa-duotone fa-magnifying-glass fa-xl"></i></a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="#"><i class="fa-duotone fa-user fa-xl"></i></a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="#"><i class="fa-duotone fa-heart-half fa-xl"></i></a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="#"><i class="fa-duotone fa-cart-shopping fa-xl"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="position-relative overflow-hidden">
+      <div class="socials position-absolute d-none d-xl-inline-flex flex-column-reverse ">
+        <span>
+          مارا دنبال کنید
+        </span>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <div class="line_wrapper">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide  ">
+                <div class="carousel-indicators flex-row-reverse">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"class="active" aria-current="true" aria-label="Slide 1" ></button>
+                </div>
+                <div class="carousel-inner">
+                  <!-- 1 -->
+                  <div class="carousel-item active" data-bs-interval="1000">
+                    <div class="sliderImageWrapper">
+                      <div style="background-image: url('../assets/1.jpg');"></div>
+                    </div>
+                    <div class="carousel-caption d-none d-sm-block ">
+                      <span> جدید </span>
+                      <h2>محصولات جدید</h2>
+                      <p> جدید ترین کارهای فصل، موجود و آماده ی ارسال. </p>
+                      <a href="#" class="line_hover_active">مشاهده محصولات</a>
+                    </div>
+                  </div>
+                  <!-- 2 -->
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <div class="sliderImageWrapper">
+                      <div style="background-image: url('../assets/3.jpg');"></div>
+                    </div>
+                    <div class="carousel-caption d-none d-sm-block">
+                      <span> جدید </span>
+                      <h2>محصولات پر طرفدار</h2>
+                      <p> جدید ترین کارهای فصل، موجود و آماده ی ارسال. </p>
+                      <a href="#" class="line_hover_active">مشاهده محصولات</a>
+                    </div>
+                  </div>
+                  <!-- 3 -->
+                  <div class="carousel-item">
+                    <div class="sliderImageWrapper">
+                      <div style="background-image: url('../assets/2.jpg');"></div>
+                    </div>
+                    <div class="carousel-caption d-none d-sm-block">
+                        <span> جدید </span>
+                        <h2> هنر دیجیتال </h2>
+                        <p> جدید ترین کارهای فصل، موجود و آماده ی سفارش. </p>
+                        <a href="#" class="line_hover_active">مشاهده محصولات</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll_info position-absolute d-none d-xl-inline-flex flex-column-reverse">
+        <span><a href="#event_box"> اسکرول کنید </a></span>
+      </div>
+    </header>
+    <!-- CATEGORIES -->
+    <section id="categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-12">
+            <div class="categories_right d-flex ">
+              <div class="overlay"></div>
+              <div class="categories_img" style="background-image: url(../assets/digiother.jpg);"></div>
+              <div class="categories_right_text d-inline-flex flex-column justify-content-end">
+                <span> عناوین برتر </span>
+                <h3> نقاشی دیجیتال </h3>
+                <a href="#" class="line_hover_active"> رفتن به فروشگاه </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-12">
+            <div class="categories_left d-flex">
+              <div class="overlay"></div>
+              <div class="categories_img" style="background-image: url(../assets/akrilik.jpg);"></div>
+              <div class="categories_right_text d-inline-flex flex-column justify-content-end">
+                <span> عناوین برتر </span>
+                <h3>  نقاشی اکریلیک </h3>
+                <a href="#" class="line_hover_active"> رفتن به فروشگاه </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="categories_left_right d-flex">
+                  <div class="overlay"></div>
+                  <div class="categories_img" style="background-image: url(../assets/abrang.jpg);"></div>
+              <div class="categories_right_text d-inline-flex flex-column justify-content-end">
+                <span> عناوین برتر </span>
+                <h3> نقاشی آبرنگ   </h3>
+                <a href="#" class="line_hover_active"> رفتن به فروشگاه </a>
+              </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="categories_left_left d-flex">
+                  <div class="overlay"></div>
+                  <div class="categories_img" style="background-image: url(../assets/pastili.jpg);"></div>
+                  <div class="categories_right_text d-inline-flex flex-column justify-content-end">
+                    <span> عناوین برتر </span>
+                    <h3>  نقاشی پاستیلی </h3>
+                    <a href="#" class="line_hover_active"> رفتن به فروشگاه </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRODUCTS -->
+    <section id="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="title_text text-center mb-3"> محبوب ترین محصولات </h3>
+          </div>
+          <div class="col-12">
+            <ul class="list-inline text-center pe-0 mb-4">
+              <li class="list-inline-item me-0 ms-4"><a href="#" class="position-relative line_hover_active">جدید ترین</a></li>
+              <li class="list-inline-item me-0 ms-4"><a href="#" class="position-relative line_hover_active"> محبوب ترین </a></li>
+              <li class="list-inline-item"><a href="#" class="position-relative line_hover_active" > پر بازدید ترین </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <!-- product card 1 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <!-- <span class="product_card_price">120,000 تومان</span> -->
+                <div class="product_card_price_sale">
+                  <del>150,000 تومان</del>
+                  <span>100,000 تومان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- product card 2 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <span class="product_card_price">120,000 تومان</span>
+              </div>
+            </div>
+          </div>
+          <!-- product card 3 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <span class="product_card_price">120,000 تومان</span>
+              </div>
+            </div>
+          </div>
+          <!-- product card 4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <span class="product_card_price">120,000 تومان</span>
+              </div>
+            </div>
+          </div>
+          <!-- product card 5 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <!-- <span class="product_card_price">120,000 تومان</span> -->
+                <div class="product_card_price_sale">
+                  <del>150,000 تومان</del>
+                  <span>100,000 تومان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- product card 6 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <span class="product_card_price">120,000 تومان</span>
+              </div>
+            </div>
+          </div>
+          <!-- product card 7 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <span class="product_card_price">120,000 تومان</span>
+              </div>
+            </div>
+          </div>
+          <!-- product card 8 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                <div class="product_card_img_wrapper position-relative">
+                  <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                </div>
+              </a>
+              <div class="product_text mt-2">
+                <div class="product_text_top mb-1 d-flex justify-content-between">
+                  <a href="#"> رنگ روغن </a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6 class="mb-1">نقاشی ماهی</h6>
+                <span class="product_card_price">120,000 تومان</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="see_more text-center">
+              <a href="#" class=" position-relative">مشاهده موارد بیشتر </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EVENT BOX -->
+    <section id="event_box">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <div class="line_wrapper">
+              <div class="event_box_wrapper d-flex flex-column justify-content-between">
+                <div></div>
+                <div class="event_box_caption">
+                  <span> جدید </span>
+                  <h2>محصولات جدید</h2>
+                  <p> جدید ترین کارهای فصل، موجود و آماده ی ارسال. </p>
+                  <a href="#" class="line_hover_active">مشاهده محصولات</a>
+                </div>
+                <div class="countdown">
+                  <p class="timer">
+                    <span id="days"></span>
+                    <span id="hours"></span>
+                    <span id="minutes"></span>
+                    <span id="seconds"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MULTIPLE BANNERS -->
+    <section id="multiple_banners">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-12">
+            <div class="banner_box d-flex">
+              <div class="overlay"></div>
+              <div class="banner_box_img" style="background-image: url(../assets/cadge.jpg);"></div>
+              <div class="banner_box_text d-inline-flex flex-column justify-content-end">
+                <span> عناوین برتر </span>
+                <h3> نقاشی دیجیتال </h3>
+                <a href="#" class="line_hover_active"> رفتن به فروشگاه </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-12">
+            <div class="banner_box d-flex ">
+              <div class="overlay"></div>
+              <div class="banner_box_img" style="background-image: url(../assets/cadge.jpg);"></div>
+              <div class="banner_box_text d-inline-flex flex-column justify-content-end">
+                <span> عناوین برتر </span>
+                <h3> نقاشی دیجیتال </h3>
+                <a href="#" class="line_hover_active"> رفتن به فروشگاه </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SPECIAL -->
+    <section id="special_items">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="title_text text-center mb-5"> محصولات ویژه </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="owl-carousel">
+              <!-- slide 1 -->
+                <div class="product_card">
+                  <a href="#">
+                    <div class="product_card_img_wrapper position-relative">
+                      <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                    </div>
+                  </a>
+                  <div class="product_text mt-2">
+                    <div class="product_text_top mb-1 d-flex justify-content-between">
+                      <a href="#"> رنگ روغن </a>
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <h6 class="mb-1">نقاشی ماهی</h6>
+                    <div class="product_card_price_sale">
+                      <del>150,000 تومان</del>
+                      <span>100,000 تومان</span>
+                    </div>
+                  </div>
+                </div>
+              <!-- slide 2 -->
+              <div class="product_card">
+                <a href="#">
+                  <div class="product_card_img_wrapper position-relative">
+                    <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                  </div>
+                </a>
+                <div class="product_text mt-2">
+                  <div class="product_text_top mb-1 d-flex justify-content-between">
+                    <a href="#"> رنگ روغن </a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6 class="mb-1">نقاشی ماهی</h6>
+                  <div class="product_card_price_sale">
+                    <del>150,000 تومان</del>
+                    <span>100,000 تومان</span>
+                  </div>
+                </div>
+              </div>         
+              <!-- slide 3 -->
+              <div class="product_card">
+                <a href="#">
+                  <div class="product_card_img_wrapper position-relative">
+                    <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                  </div>
+                </a>
+                <div class="product_text mt-2">
+                  <div class="product_text_top mb-1 d-flex justify-content-between">
+                    <a href="#"> رنگ روغن </a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6 class="mb-1">نقاشی ماهی</h6>
+                  <div class="product_card_price_sale">
+                    <del>150,000 تومان</del>
+                    <span>100,000 تومان</span>
+                  </div>
+                </div>
+              </div>              
+              <!-- slide 4 -->
+              <div class="product_card">
+                <a href="#">
+                  <div class="product_card_img_wrapper position-relative">
+                    <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                  </div>
+                </a>
+                <div class="product_text mt-2">
+                  <div class="product_text_top mb-1 d-flex justify-content-between">
+                    <a href="#"> رنگ روغن </a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6 class="mb-1">نقاشی ماهی</h6>
+                  <div class="product_card_price_sale">
+                    <del>150,000 تومان</del>
+                    <span>100,000 تومان</span>
+                  </div>
+                </div>
+              </div>              
+              <!-- slide 5 -->
+              <div class="product_card">
+                <a href="#">
+                  <div class="product_card_img_wrapper position-relative">
+                    <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                  </div>
+                </a>
+                <div class="product_text mt-2">
+                  <div class="product_text_top mb-1 d-flex justify-content-between">
+                    <a href="#"> رنگ روغن </a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6 class="mb-1">نقاشی ماهی</h6>
+                  <div class="product_card_price_sale">
+                    <del>150,000 تومان</del>
+                    <span>100,000 تومان</span>
+                  </div>
+                </div>
+              </div>              
+              <!-- slide 6 -->
+              <div class="product_card">
+                <a href="#">
+                  <div class="product_card_img_wrapper position-relative">
+                    <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                  </div>
+                </a>
+                <div class="product_text mt-2">
+                  <div class="product_text_top mb-1 d-flex justify-content-between">
+                    <a href="#"> رنگ روغن </a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6 class="mb-1">نقاشی ماهی</h6>
+                  <div class="product_card_price_sale">
+                    <del>150,000 تومان</del>
+                    <span>100,000 تومان</span>
+                  </div>
+                </div>
+              </div>              
+              <!-- slide 7 -->
+              <div class="product_card">
+                <a href="#">
+                  <div class="product_card_img_wrapper position-relative">
+                    <div class="product_card_img position-absolute" style="background-image:url(../assets/product.jpg);"></div>
+                  </div>
+                </a>
+                <div class="product_text mt-2">
+                  <div class="product_text_top mb-1 d-flex justify-content-between">
+                    <a href="#"> رنگ روغن </a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6 class="mb-1">نقاشی ماهی</h6>
+                  <div class="product_card_price_sale">
+                    <del>150,000 تومان</del>
+                    <span>100,000 تومان</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SOCIAL -->
+    <section id="social">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="title_text text-center m-5"> ما در اینستاگرام </h3>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6" >
+            <a href="#">
+              <div class="social_img_wrapper position-relative">
+                <div class="position-absolute" style="background-image:url(../assets/aw.jpg) ;"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVISES -->
+    <section id="services">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4 col-12">
+            <div class="services_box d-flex flex-column align-items-center">
+              <i class="fa-duotone fa-truck-bolt fa-2xl"></i>
+              <h3>ارسال سریع</h3>
+              <span> ارسال سریع به تمام نقاط کشور</span>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="services_box d-flex flex-column align-items-center">
+              <i class="fa-duotone fa-headset fa-2xl"></i>
+              <h3> پشتیبانی </h3>
+              <span> پشتیبانی 24 ساعته </span>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="services_box d-flex flex-column align-items-center">
+              <i class="fa-duotone fa-wand-magic-sparkles fa-2xl"></i>
+              <h3> ارتباط با هنرمند </h3>
+              <span> تابلوی خود را شخصی سازی کنید </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- FOOTER -->
+    <footer>
+      <div class="footer_top">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="about">
+                 <img src="../assets/WEBSITE LOGO.png" width="55px">
+                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                 </p>
+                 <ul class="pe-0">
+                  <li>example@mail.com</li>
+                  <li>+98 21 543 9876</li>
+                 </ul>
+                 <div class="d-flex justify-content-around">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                 </div>
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-1 order-2">
+              <div class="row">
+                <div class="col-4 d-flex justify-content-center">
+                  <div class="footer_vertical_list">
+                    <h5> دسته بندی ها </h5>
+                    <ul class="p-0 d-flex flex-column ">
+                      <li><a> نقاشی دیجیتال </a></li>
+                      <li><a> نقاشی اکریلیک </a></li>
+                      <li><a> نقاشی آبرنگ </a></li>
+                      <li><a> نقاشی پاستیلی </a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                  <div class="footer_vertical_list">
+                    <h5> شرکت هنر</h5>
+                    <ul class="p-0 d-flex flex-column ">
+                      <li><a> درباره ما </a></li>
+                      <li><a> همکاری با ما </a></li>
+                      <li><a> گالری ما </a></li>
+                      <li><a> هنرمندان </a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                  <div class="footer_vertical_list">
+                    <h5>  ارتباط با ما</h5>
+                    <ul class="p-0 d-flex flex-column ">
+                      <li><a>  ارتباط با پشتیبانی </a></li>
+                      <li><a> نقاشی سفارشی  </a></li>
+                      <li><a> کارت هدیه </a></li>
+                      <li><a> حساب شخصی شما </a></li>
+                      <li><a> حمایت از ما </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 d-flex flex-column  col-sm-6 order-lg-2 order-1">
+              <div class="subscribe">
+                <h5>با خبر شوید</h5>
+                <div class="d-flex flex-column">
+                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+                  <div class="input-group input-group-sm mb-3">
+                    <input type="text" class="form-control" placeholder="ایمیل خود را بنویسید" aria-label="ایمیل خود را بنویسید" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"> ارسال </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="divider"></div>
+            </div>
+            <div class="col-4">
+              <span>1401</span>
+            </div>
+            <div class="col-8">
+              <div class="change_value d-flex justify-content-end ">
+                <div>
+                  <span>واحد پول </span>
+                  <div class="btn-group dropup">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      تومان
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li class="pe-2">تومان</li>
+                      <li class="pe-2"><hr class="dropdown-divider"></li>
+                      <li class="pe-2">ریال</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <span>زبان سایت</span>
+                  <div class="btn-group dropup">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      فارسی
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li class="pe-2">فارسی</li>
+                      <li class="pe-2"><hr class="dropdown-divider"></li>
+                      <li class="pe-2">انگلیسی</li>
+                    </ul>
+                  </div> 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../script/bootstrap.bundle.min.js"></script>
+    <script src="../script/timer.js"></script>
+    <script>countdown('08/07/2023 03:14:07 AM');</script>
+    <script src="../script/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          rtl:true,
+          loop:true,
+          margin:20,
+          responsiveClass:true,
+          dots:false,
+          responsive:{
+          0:{
+              items:1,
+              nav:true, 
+              loop:true
+          },
+          700:{
+              items:2,
+              nav:true,
+              loop:true
+          },
+          1000:{
+              items:5,
+              nav:true,
+              loop:true
+          }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+              
